@@ -82,7 +82,4 @@ function decode(expr) {
 
   return word;
 }
-
-module.exports = {
-  decode,
-};
+console.log(decode("0010101010**********0000000010"));
